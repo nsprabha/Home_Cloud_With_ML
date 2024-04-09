@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecefeb;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px; /* Adjust the margin-left value as per your requirement */
+}
+
+/* If you want to move the heading and details as well */
+.heading {
+    font-family: "intro", sans-serif;
+    text-align: center;
+    margin-left: 100px; /* Adjust the margin-left value as per your requirement */
+    margin-bottom: 50px;
+}
+
+.details {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px; /* Adjust the margin-left value as per your requirement */
+}
+
+.form,setting {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px; /* Adjust the margin-left value as per your requirement */
+    line-height: 2.5;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 800px; /* Adjust the height as per your requirement */
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #ecefeb;
+    text-decoration: none;
+}
+/* Add this CSS to your existing styles.css file */
+.button {
+    
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px; /* Sets the border radius to create rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add this CSS to your existing styles.css file */
+.button.ok {
+    background-color: #7bb38a; /* Sets the background color of the "OK" button */
+    color: #ffffff; /* Sets the text color of the "OK" button to white for better contrast */
+}
+
+.button.cancel {
+    background-color: #b24546; /* Sets the background color of the "CANCEL" button */
+    color: #ffffff; /* Sets the text color of the "CANCEL" button to white for better contrast */
+}
+
+.button.accept {
+    background-color: #7bb38a; /* Sets the background color of the "ACCEPT" button */
+    color: #ffffff; /* Sets the text color of the "ACCEPT" button to white for better contrast */
+}
+
+.button.reject {
+    background-color: #b24546; /* Sets the background color of the "REJECT" button */
+    color: #ffffff; /* Sets the text color of the "REJECT" button to white for better contrast */
+}
+
+/* Style for the "UPDATE USER INFO" button */
+.button.update {
+    background-color: #000000; /* Black background color */
+    color: #ffffff; /* White font color */
+    border: none;
+    border-radius: 10px; /* Rounded edges */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: auto; /* Adjust width based on text content */
+}
+
+/* Style for the "DARK THEME" and "LIGHT THEME" buttons */
+.button.dark,
+.button.light {
+    background-color: #000000; /* Example color for dark and light themes */
+    color: #ffffff; /* White font color */
+    border: none;
+    border-radius: 10px; /* Rounded edges */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: auto; /* Adjust width based on text content */
+}
+
+/* Additional styles for the buttons (optional) */
+.button.dark:hover,
+.button.light:hover,
+.button.update:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
