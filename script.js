@@ -1,4 +1,4 @@
-// Function to add a new folder with delete and modify buttons
+/*// Function to add a new folder with delete and modify buttons
 function addFolder() {
     const folderContainer = document.getElementById('folderContainer');
     const newFolder = document.createElement('div');
@@ -57,7 +57,7 @@ function addFolder() {
   // Event listener for the "ADD FOLDER" button
   document.getElementById('addFolderBtn').addEventListener('click', addFolder);
   
-
+*/
 
 /*
 function addFolder() {
